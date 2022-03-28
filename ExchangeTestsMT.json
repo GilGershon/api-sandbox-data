@@ -362,7 +362,7 @@
    "[custom]-new-env-2":{
       "url":"wss://exchange-auth-service-develop.rnd.ops.exberry.io",
       "provider":"websocket",
-      "order":456,
+      "order":457,
       "methods":[
          {
             "group":"Authentication Service",
@@ -663,12 +663,12 @@
             }
          }
       ],
-      "order":420
+      "order":421
    },
    "[custom]-new-env-7":{
       "url":"wss://exchange-backoffice-master.ops.rnd.exberry.io/api",
       "provider":"rsocket",
-      "order":437,
+      "order":438,
       "methods":[
          {
             "group":"Lists",
@@ -1106,7 +1106,7 @@
             }
          }
       ],
-      "order":343
+      "order":344
    },
    "[custom]-new-env-9":{
       "url":"wss://exchange-gateway-rc.exchange.rnd.exberry.io",
@@ -1449,7 +1449,7 @@
             }
          }
       ],
-      "order":194
+      "order":195
    },
    "[custom]-new-env-10":{
       "url":"wss://exchange-gateway-master.exchange.rnd.exberry.io",
@@ -1809,7 +1809,7 @@
             }
          }
       ],
-      "order":111
+      "order":112
    },
    "[custom]-new-env-11":{
       "url":"wss://exchange-gateway-release.exchange.rnd.exberry.io",
@@ -2152,7 +2152,7 @@
             }
          }
       ],
-      "order":258
+      "order":259
    },
    "[custom]-new-env-12":{
       "url":"wss://sandbox-shared.staging.exberry-uat.io",
@@ -2495,7 +2495,7 @@
             }
          }
       ],
-      "order":347
+      "order":348
    },
    "[custom]-new-env-13":{
       "url":"wss://api-gateway-master.site.rnd.exberry.io",
@@ -2606,7 +2606,7 @@
             }
          }
       ],
-      "order":114
+      "order":115
    },
    "[custom]-new-env-14":{
       "url":"wss://api-gateway-rc.site.rnd.exberry.io",
@@ -2717,7 +2717,7 @@
             }
          }
       ],
-      "order":195
+      "order":196
    },
    "[custom]-new-env-15":{
       "url":"wss://api-gateway-develop.site.rnd.exberry.io",
@@ -2898,6 +2898,19 @@
                   }
                }
             }
+         },
+         {
+            "group":"Authentication API",
+            "methodName":"createSession-Trader",
+            "payload":{
+               "sample":{
+                  "q":"v1/broker.oms/createSession",
+                  "sid":1,
+                  "d":{
+                     "token":"abc"
+                  }
+               }
+            }
          }
       ],
       "order":3
@@ -2978,6 +2991,6 @@
             }
          }
       ],
-      "order":21
+      "order":22
    }
 }
