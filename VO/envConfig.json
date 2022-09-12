@@ -547,7 +547,7 @@
         }
       }
     ],
-    "url": "wss://sandbox-shared.staging.exberry-uat.io",
+    "url": "wss://exchange-gateway-toms.staging.exberry-uat.io",
     "order": 37
   },
   "Reporting API": {
@@ -758,6 +758,6 @@
       }
     ],
     "url": "wss://exchange-gateway-toms.staging.exberry-uat.io",
-    "order": 48
+    "order": 49
   }
 }
