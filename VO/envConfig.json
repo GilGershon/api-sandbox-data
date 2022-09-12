@@ -757,7 +757,7 @@
         }
       }
     ],
-    "url": "wss://api-gateway-staging.site.staging.exberry-uat.io",
+    "url": "wss://exchange-gateway-toms.staging.exberry-uat.io",
     "order": 48
   }
 }
