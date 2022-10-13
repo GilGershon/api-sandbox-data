@@ -29,7 +29,7 @@
 							"id": "secret",
 							"label": "secret",
 							"type": "input",
-							"initialValue": "4397ac1596fcb655cf549f4ad8e7e5daf7153d0d28e57eabe87440ff2bce00da",
+							"initialValue": "8eb3272ee47d572b1e1ab7382422899223b98fdb4959302157a315ab1c3af371",
 							"required": true,
 							"valueType": "text"
 						},
@@ -37,7 +37,7 @@
 							"id": "apiKey",
 							"label": "apiKey",
 							"type": "input",
-							"initialValue": "5ea96dd5-b610-4c74-bfdb-f49ef820e0f0",
+							"initialValue": "e6be7620-e1e5-4403-a859-52a854e3fde6",
 							"required": true,
 							"valueType": "text"
 						},
@@ -86,8 +86,8 @@
 							"orderType": "Limit",
 							"side": "Buy",
 							"quantity": 0.7,
-							"price": 0.0699,
-							"instrument": "664D4DCAF9EC6201",
+							"price": 2374,
+							"instrument": "62098ED8E1927076",
 							"mpOrderId": 1001,
 							"timeInForce": "GTC",
 							"userId": ""
@@ -177,19 +177,19 @@
 							"id": "price",
 							"label": "price",
 							"type": "input",
-							"initialValue": 0.0699,
+							"initialValue": 2734,
 							"required": false
 						},
 						"instrument": {
 							"id": "instrument",
 							"label": "instrument",
 							"data": [
-								"5936A1C94183CBAA",
-								"71C2CBAC3876ED2F",
-								"664D4DCAF9EC6201",
-								"E3B9DD47505CE48D",
-								"CC6CB30A205EDC0F",
-								"BF1645ED1FD06537"
+								"62098ED8E1927076",
+								"736F9A93331EE4A1",
+								"7BB5C84EFF22C0B0",
+								"95A7C46EBC2930DC",
+								"90F28EA556D652C4",
+								"95A7C46EBC2930DC"
 							],
 							"type": "select",
 							"required": true
@@ -246,7 +246,7 @@
 					"sample": {
 						"d": {
 							"orderId": 1,
-							"instrument": "664D4DCAF9EC6201"
+							"instrument": "62098ED8E1927076"
 						},
 						"q": "v1/exchange.market/cancelOrder",
 						"sid": 1
@@ -260,7 +260,7 @@
 					"sample": {
 						"d": {
 							"orderId": 1,
-							"instrument": "664D4DCAF9EC6201",
+							"instrument": "62098ED8E1927076",
 							"quantity": 0.5
 						},
 						"q": "v1/exchange.market/modifyOrder",
@@ -350,7 +350,7 @@
 							"id": "secret",
 							"label": "secret",
 							"type": "input",
-							"initialValue": "c69dfb54dbbb0fdd8362d4e569dbda64aebb27bdee0bbbd3adce4644079da052",
+							"initialValue": "8eb3272ee47d572b1e1ab7382422899223b98fdb4959302157a315ab1c3af371",
 							"required": true,
 							"valueType": "text"
 						},
@@ -358,7 +358,7 @@
 							"id": "apiKey",
 							"label": "apiKey",
 							"type": "input",
-							"initialValue": "78a4688e-468e-4a70-b855-543ea1a0c23d",
+							"initialValue": "e6be7620-e1e5-4403-a859-52a854e3fde6",
 							"required": true,
 							"valueType": "text"
 						},
